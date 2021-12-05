@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&family=Inconsolata&display=swap');
+html {
+    max-width: 1280;
+}
+
+.head {
+    display: flex;
+    /* border: 1px solid red; */
+    height: 182px;
+    width: 100%;
+}
+
+.a {
+    position: absolute;
+}
+
+
+/* .b {
+    position: absolute;
+    right: 0;
+    opacity: 10%;
+} */
+
+.main {
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'IM Fell Great Primer SC', serif;
+    position: relative;
+    color: rgb(255, 255, 255);
+    /* line-height: 2.6; */
+    margin-left: 25px;
+}
+
+.main-con {
+    margin-top: 40px;
+}
+
+.navv {
+    display: flex;
+    min-width: 10%;
+    /* background-color: rgb(109, 61, 61); */
+    position: relative;
+    align-items: center;
+    margin-left: 22%;
+}
+
+.nav {
+    gap: 40px;
+}
+
+.nav-item {
+    font-size: 30px;
+    /* font-weight: 500; */
+    font-family: 'Inconsolata', monospace;
+}
+
+.nav-item-color {
+    color: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.sss {
+    font-size: 25px;
+    margin-left: 14px;
+    margin-right: 9px;
+}
+
+.wrap {
+    width: 380px;
+    /* width: 300px;
+    margin: 20px auto 0 auto;
+    height: auto;
+    background-color: rgb(170, 45, 45); */
+    margin-top: 68px;
+}
+
+.search {
+    position: absolute;
+    /* width: 80%; */
+    float: right;
+    display: flex;
+    background-color: #F5F5F5BF;
+    opacity: 75%;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 3%;
+}
+
+::placeholder {
+    /* CSS 3 標準 */
+    color: #F5F5F5BF;
+    ;
+}
+
+.search-bar {
+    width: 100%;
+    height: 32px;
+    font-size: 20px;
+    border: 3px solid #070606;
+    background-color: #505050B2;
+    border-radius: 10px;
+    /* position: relative */
+    font-family: 'Inconsolata', monospace;
+    margin-right: 6px;
+}
+
+.head-icon {
+    margin-right: 4px;
+}
+
+.set {
+    position: absolute;
+    background-color: #C4C4C4;
+    width: 100%;
+    opacity: 70%;
+    height: 50px;
+    margin-top: 132px;
+}
+
+.set-nav {
+    display: flex;
+    margin-left: 4%;
+    align-items: center;
+    /* text-align: center; */
+    margin-top: 0.5%;
+}
+
+.set-nav-item {
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    /* font-weight: 600; */
+    margin-right: 5%;
+}
+
+.fa-chevron-down {
+    font-size: 3px;
+    margin-left: 3PX;
+}
+
+.set-nav-item-link {
+    color: black;
+}
+
+.set-nav-item-link:hover {
+    text-decoration: none;
+}
+
+.choice {
+    position: absolute;
+    display: flex;
+    background-color: #1B1716D9;
+    width: 18%;
+    right: 24px;
+    /* bottom: 0; */
+}
+
+.choice-item {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+}
+
+.choice-item-link {
+    color: rgb(255, 255, 255);
+}
+
+.choice-item-link:hover {
+    text-decoration: none;
+}
+
+.language {
+    margin-right: 10%;
+    margin-left: 5%;
+    font-weight: 400;
+}
+
+.fa-angle-double-down {
+    margin-left: 10px;
+}
+
+.introduction {
+    width: 100%;
+    background-color: #000;
+}
+
+.introduction-block {
+    /* margin-left: 142px;
+    margin-right: 142px; */
+    /* margin: auto; */
+    display: flex;
+    /* justify-content: center; */
+    width: 996px;
+    margin: auto;
+}
+
+.block {
+    margin-right: 6.5%;
+    margin-top: 44px;
+    margin-bottom: 55px;
+}
+
+
+/* .block-block1 {
+    margin-left: 15%;
+}
+
+.block-block2 {
+    margin-right: 15%;
+} */
+
+.name {
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+.name-item {
+    color: white;
+    font-size: 20px;
+    /* font-weight: 400; */
+    font-family: 'Inconsolata', monospace;
+}
+
+.article {
+    width: 100%;
+    background-color: #000;
+}
+
+.article-contain {
+    display: flex;
+    width: 996px;
+    /* width: 996px; */
+    /* margin-left: 15%; */
+    /* margin-right: 10%; */
+    margin: auto;
+}
+
+.contain {
+    background-color: #F5F5F5;
+    opacity: 90%;
+    width: 300px;
+    height: 380px;
+    margin-top: 26px;
+    margin-right: 2%;
+    margin-left: 4%;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 3px 3px 20px 0px inset;
+}
+
+.contain-name {
+    font-size: 45px;
+    font-family: 'IM Fell Great Primer SC', serif;
+    text-align: center;
+}
+
+.contain-item {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.contain-item-contain {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.more {
+    background-color: #000;
+    width: 120px;
+    margin-left: 50%;
+    /* margin-top: 15px; */
+    border-radius: 5px;
+}
+
+.more-btn {
+    /* color: white; */
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.more-btn-link {
+    display: block;
+    color: #fff;
+}
+
+.more-btn-link:hover {
+    color: rgb(114, 99, 99);
+    text-decoration: none;
+}
+
+.bbb {
+    margin-top: 45px;
+}
+
+.footer {
+    background-color: #000;
+    display: flex;
+}
+
+.left {
+    text-align: center;
+    color: #C9C9C9;
+    margin-top: 38px;
+}
+
+.footer-head {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'IM Fell Great Primer SC', serif;
+}
+
+.footer-contain {
+    font-family: 'IM Fell Great Primer SC', serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: center;
+}
+
+.icon-head {
+    color: white;
+    font-size: 35px;
+    font-family: 'IM Fell Great Primer SC', serif;
+    margin-top: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.icon-name-con {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inconsolata', monospace;
+}
+
+.all-icon {
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 35px; */
+    margin-right: 20px;
+}
+
+.bag {
+    position: absolute;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 28px;
+}
+
+.circle {
+    position: relative;
+    margin-top: 5px;
+}
+
+
+/* .cc1 {
+    margin-left: 15%;
+}
+
+.cc2 {
+    margin-right: 15%;
+} */
