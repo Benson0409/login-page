@@ -5,6 +5,7 @@ html {
 
 .head {
     display: flex;
+    background-image: url(../images/head1.png);
     /* border: 1px solid red; */
     height: 182px;
     width: 100%;
@@ -169,6 +170,7 @@ html {
     color: rgb(255, 255, 255);
     font-family: 'Inconsolata', monospace;
     font-weight: 900;
+    width: 100%;
 }
 
 .choice-item-link {
