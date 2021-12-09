@@ -58,6 +58,11 @@ html {
     color: rgb(255, 255, 255);
 }
 
+.nav-item-color:hover {
+    color: rgba(246, 172, 172, 0.835);
+    font-weight: 900;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -146,6 +151,8 @@ html {
 
 .set-nav-item-link:hover {
     text-decoration: none;
+    color: rgb(202, 136, 136);
+    font-weight: 900;
 }
 
 .choice {
@@ -170,6 +177,7 @@ html {
 
 .choice-item-link:hover {
     text-decoration: none;
+    color: rgb(204, 145, 145);
 }
 
 .language {
@@ -292,7 +300,7 @@ html {
 }
 
 .more-btn-link:hover {
-    color: rgb(114, 99, 99);
+    color: rgb(241, 172, 172);
     text-decoration: none;
 }
 
